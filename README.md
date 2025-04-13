@@ -5,7 +5,11 @@
 
 ## Details
 
-This repo is for tracking problems with Brickcraft, as well as providing a centralised location for information, frequently asked questions, etc.  
+This repo is for tracking problems with Brickcraft, as well as providing a centralised location for information, frequently asked questions, etc.
+
+## FAQ and Known Issues
+
+Please check other Issues, the [FAQ](https://github.com/brickcraft-mc/brickcraft/wiki/Frequently-Asked-Questions) page, or the [Known Issues](https://github.com/brickcraft-mc/brickcraft/wiki/Known-Issues) page before making an Issue or asking questions.
 
 ## The Pack
 
