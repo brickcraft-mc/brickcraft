@@ -101,15 +101,6 @@ IF ERRORLEVEL 1 (
     EXIT /B 1
 )
 
-REM Find the resource pack folder (could be nested)
-SET "PACK_FOLDER="
-FOR /D %%D IN ("%TEMP_DIR%\*") DO (
-    IF EXIST "%%D\assets\minecraft\textures\" (
-        SET "PACK_FOLDER=%%D"
-        GOTO :found_pack
-    )
-)
-
 REM If not found in subdirectories, check if extracted directly to temp dir
 IF EXIST "%TEMP_DIR%\assets\minecraft\textures\" (
     SET "PACK_FOLDER=%TEMP_DIR%"
